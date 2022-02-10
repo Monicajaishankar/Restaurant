@@ -1,0 +1,135 @@
+/*main styles*/
+body {
+	background: #a95858;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 400px;
+	color: #5f5e4e;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+h2 {
+	text-align: center;
+	font-family: 'Open Sans',sans-serif;
+	font-size: 62px;
+	line-height: 82px;
+	font-weight: 300;
+	color:#800000;
+}
+
+h2 em {
+	display: block;
+	font-family: 'Yesteryear', cursive;
+	font-size: 100px;
+	line-height: 82px;
+	font-weight: 300;
+
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #393328;
+
+}
+
+a {
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+ }
+ 
+ 
+ /*menu*/
+ .menuitem-menu > li {
+	 position: relative;
+	 float: left;
+
+}
+
+.menuitem-menu > li + li {
+	margin-left: 20px;
+
+}
+
+.menuitem-menu {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+ 
+}
+
+.menuitem-menu > li > a {
+	color: #ffffff;
+
+}
+
+.menuitem-menu > li.menuitemHover > a,
+.menuitem-menu > li > a:hover {
+	color: #2b2929;
+
+}
+
+.menuitem-menu > li.active > a {
+	color: #2b2929;
+}
+ 
+ 
+ /*parallax*/
+ .parallax1 {
+	 color:#000000;
+	 background-image: url(banner2.jpg);
+	 padding: 117px 0 122px;
+}
+
+.parallax2 {
+	color:#000000;
+	background-image: url(banner3.jpg);
+	padding: 134px 0px 132px;
+}
+
+/*header section*/
+header {
+	background: #a95858;
+	text-align: center;
+}
+
+
+header .nav {
+	margin: 38px 0 48px 0;
+	float: right;
+}
+
+/*name*/
+.name {
+	margin: 14px 0 0 0;
+	float: left;
+	padding: 0 0 6px 4px;
+	font-family: 'Yesteryear', cursive;
+	font-size: 60px;
+	line-height: 64px;
+	color: #ffffff;
+}
+
+/*content styles*/
+main {
+	display: block;
+	background: #ffffff;
+}
+
+/*footer*/
+footer {
+  text-align: center;
+  padding: 50px 0px 45px;
+  background-color:#a95858;
+  color: white;
+}

@@ -1,0 +1,103 @@
+/*normalize*/
+html,
+body,
+div,h1,
+h2,
+h3,
+
+p,
+a,
+img,
+center,
+ul,
+li,
+fieldset,
+form,
+label,
+header,nav,
+section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+ }
+
+ul {
+	list-style: none;
+}
+
+
+/*grid system*/
+.container{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container:before,
+.row:before,
+.container:after,
+.row:after {
+	content: " ";
+	display: table;
+}
+
+.container:after,
+.row:after {
+	clear: both;
+}
+
+.container {
+	width: 1170px;
+}
+
+.container .grid_6 {
+	width: 570px;
+}
+
+.container .grid_5 {
+	width: 470px;
+}
+
+.container .grid_4 {
+	width: 370px;
+}
+
+.grid_1 {
+	padding: 0 55px 0 0;
+}
+
+.conatiner .grid_2 {
+	margin-left: 130px;
+}
+
+
+/*about page-image align*/
+
+*{ 
+	box-sizing: border-box; 
+ } 
+ 
+.row{ 
+	display: flex; 
+ } 
+ 
+.column{ 
+	flex: 20%; 
+	padding: 5px; 
+ } 
+
+/*select box alignment*/
+
+select{
+	font-size:25px;
+	height:50px;
+	width:350px;
+	margin:10px;
+}
+
+select:focus{
+	min-width:350px;
+	width:auto;
+}
+	

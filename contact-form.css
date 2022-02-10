@@ -1,0 +1,29 @@
+/*basic sytle*/
+#contact-form label {
+	font: 400 18px/20px 'Open Sans', sans-serif;
+}
+
+/* form input*/
+#contact-form input[type='text'] {
+	font: 400 16px 'Open Sans', sans-serif;
+	border: 1px solid #a1a097;
+	width: 100%;
+	height: 30px;
+	margin: 6px 0 12px 0;
+ }
+ 
+ /*form textarea*/
+ #contact-form textarea {
+	 font: 400 16px 'Open Sans', sans-serif;
+	 color: #393328;
+	 border: 1px solid #a1a097;
+	 width: 100%;
+	 height: 174px;
+}
+
+/*button*/
+button{
+	font-size:20px;
+	width:100px;
+	height:40px;
+}
